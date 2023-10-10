@@ -1,5 +1,5 @@
 
-$global:OU_VPN="OU=Wiener_VPN,DC=WIENERGROUP,DC=COM"
+$global:OU_VPN="OU=AA,DC=XX,DC=COM"
 
 $UserVPNSearch = Read-Host -Prompt "Escribe el nombre de usuario:"
 $UserVPNSearch="*$UserVPNSearch*" 
